@@ -2,7 +2,7 @@
   "products": [
     {
       "id": 1,
-      "name": "Caneta BIC Preta",
+      "name": "Caneta BIC Azul",
       "price": 5.89
     },
     {
@@ -12,8 +12,8 @@
     },
     {
       "id": 3,
-      "name": "Samsung Note",
-      "price": 5000.89
+      "name": "Samsung Note Ultra",
+      "price": "7000.89"
     }
   ]
 }
