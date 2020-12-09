@@ -14,6 +14,11 @@
       "id": 3,
       "name": "Samsung Note Ultra",
       "price": "7000.89"
+    },
+    {
+      "name": "Teste ?",
+      "price": "10.99",
+      "id": 4
     }
   ]
 }

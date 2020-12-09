@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { Router } from '@angular/router';
 
 import { ProductService } from './../product.service';
@@ -9,7 +9,7 @@ import { Product } from './../product.model';
   templateUrl: './product-create.component.html',
   styleUrls: ['./product-create.component.css']
 })
-export class ProductCreateComponent implements OnInit {
+export class ProductCreateComponent {
 
   product: Product = {
     name: '',
@@ -20,8 +20,6 @@ export class ProductCreateComponent implements OnInit {
     private productService: ProductService,
     private router: Router
   ) { }
-
-  ngOnInit(): void { }
 
   createProduct(): void {
     this.productService.create(this.product)
